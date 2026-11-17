@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mintforge-ai
+    runtime: static
+    buildCommand: echo "Static site — no build required"
+    staticPublishPath: .
